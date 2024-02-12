@@ -32,13 +32,13 @@ const HeroSection = () => {
           </button>
         </div>
         <div className='col-span-4 place-self-center mt-4 lg:mt-0'>
-          <div className="rounded-full bg-[#181818] w-[300px] h-[300px] relative">
+          <div className="rounded-full bg-gradient-to-br from-blue-200 to-blue-700 w-[360px] h-[360px] relative">
             <Image
-              src="/images/Mozafari.Behnam.s32497873.png"
+              src="/images/Mozafari.Behnam.s32497873.JPG"
               alt="Behnam Mozafari"
               className='absolute transform rounded-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2'
-              width={250}
-              height={250}
+              width={350}
+              height={350}
             />
           </div>
         </div>
