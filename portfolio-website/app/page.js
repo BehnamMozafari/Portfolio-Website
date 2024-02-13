@@ -1,10 +1,10 @@
 import Image from "next/image";
-import HeroSection from "./components/HeroSection";
-import NavBar from "./components/NavBar";
-import AboutSection from "./components/AboutSection";
-import ProjectsSection from "./components/ProjectsSection";
-import EmailSection from "./components/EmailSection";
-import Footer from "./components/Footer";
+import HeroSection from "./components/HeroSection.jsx";
+import NavBar from "./components/NavBar.jsx";
+import AboutSection from "./components/AboutSection.jsx";
+import ProjectsSection from "./components/ProjectsSection.jsx";
+import EmailSection from "./components/EmailSection.jsx";
+import Footer from "./components/Footer.jsx";
 
 export default function Home() {
   return (
