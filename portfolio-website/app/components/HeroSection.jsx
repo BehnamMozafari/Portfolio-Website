@@ -9,7 +9,7 @@ const HeroSection = () => {
       <div className="grid grid-cols-1 sm:grid-cols-12">
         <div className='col-span-8 place-self-center text-center sm:text-left'>
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
-            <span className='text-transparent bg-clip-text bg-gradient-to-r from-blue-200 to-blue-700'> Hi, I'm {" "} </span>
+            <span className='text-transparent bg-clip-text bg-gradient-to-r from-blue-200 to-blue-700'> Hi, I&#39;m {" "} </span>
             {" "}
             <br></br>
             <TypeAnimation
@@ -23,7 +23,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] mb-6 textl-lg lg:text-xl">
-            I'm a student at Monash University studying Software Engineering and Commerce, looking for opportunities to kickstart my career in the tech industry.
+            I&#39;m a student at Monash University studying Software Engineering and Commerce, looking for opportunities to kickstart my career in the tech industry.
           </p>
           <button className="bg-gradient-to-br from-blue-200 to-blue-700 px-1 py-1  text-white rounded-full">
             <span className="block">
