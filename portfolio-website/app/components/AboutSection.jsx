@@ -44,7 +44,7 @@ const AboutSection = () => {
         <section className='text-white' id="about">
             <div className='md:grid md:grid-cols-12 gap-8 items-center py-8 xl:gap-16 sm:py-16'>
                 <div className='col-span-5 place-self-center'>
-                    <Image src='/images/Behnam-Coding.jpeg' width={400} height={400} />
+                    <Image src='/images/Behnam-Coding.jpeg' alt="Working on my test-based elden ring project" width={400} height={400} />
                 </div>
                 <div className='col-span-6 mt-4 md:mt-0 text-left flex flex-col h-full'>
                     <h2 className='text-4xl font-bold text-white mb-4'>
