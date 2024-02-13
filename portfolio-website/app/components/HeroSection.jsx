@@ -15,7 +15,7 @@ const HeroSection = () => {
             <TypeAnimation
               sequence={[
                 "Behnam",
-                1000,
+                50000,
               ]}
               wrapper="span"
               speed={10}
@@ -23,7 +23,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] mb-6 textl-lg lg:text-xl">
-            Description about me goes here remember to fill it this is just random
+          I'm a student at Monash University studying Software Engineering and Commerce, looking for opportunities to kickstart my career in the tech industry.
           </p>
           <button className="bg-gradient-to-br from-blue-200 to-blue-700 px-1 py-1  text-white rounded-full">
             <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
