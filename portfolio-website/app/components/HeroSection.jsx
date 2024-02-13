@@ -23,11 +23,13 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] mb-6 textl-lg lg:text-xl">
-          I'm a student at Monash University studying Software Engineering and Commerce, looking for opportunities to kickstart my career in the tech industry.
+            I'm a student at Monash University studying Software Engineering and Commerce, looking for opportunities to kickstart my career in the tech industry.
           </p>
           <button className="bg-gradient-to-br from-blue-200 to-blue-700 px-1 py-1  text-white rounded-full">
-            <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
-              Download Resume
+            <span className="block">
+              <a href="/Behnam-Mozafari-Resume.pdf" download className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
+                Download Resume
+              </a>
             </span>
           </button>
         </div>

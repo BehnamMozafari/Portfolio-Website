@@ -26,12 +26,12 @@ const NavBar = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-100">
       <div className="flex flex-wrap items-center justify-between mx-auto px-4 py-2">
-        <Link
-          href={"/"}
+        <a
+          href={"#home"}
           className="text-2xl md:text-5xl text-white font-semibold"
         >
           <span className='text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-blue-700'>BM</span>
-        </Link>
+        </a>
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (
             <button

@@ -41,7 +41,7 @@ const AboutSection = () => {
         });
     };
     return (
-        <section className='text-white'>
+        <section className='text-white' id="about">
             <div className='md:grid md:grid-cols-12 gap-8 items-center py-8 xl:gap-16 sm:py-16'>
                 <div className='col-span-5 place-self-center'>
                     <Image src='/images/Behnam-Coding.jpeg' width={400} height={400} />
