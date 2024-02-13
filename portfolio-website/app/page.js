@@ -8,15 +8,21 @@ import Footer from "./components/Footer.jsx";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col bg-[#121212]">
-      <NavBar />
-      <div class="container mt-24 mx-auto px-12 py-4" id="home">
-        <HeroSection />
-        <AboutSection />
-        <ProjectsSection />
-        <EmailSection />
-        <Footer />
-      </div>
-    </main>
+    <div>
+      <head>
+        <title>Behnam Mozafari</title>
+        <link rel="icon" href="/BM.svg" />
+      </head>
+      <main className="flex min-h-screen flex-col bg-[#121212]">
+        <NavBar />
+        <div class="container mt-24 mx-auto px-12 py-4" id="home">
+          <HeroSection />
+          <AboutSection />
+          <ProjectsSection />
+          <EmailSection />
+          <Footer />
+        </div>
+      </main>
+    </div>
   );
 }
