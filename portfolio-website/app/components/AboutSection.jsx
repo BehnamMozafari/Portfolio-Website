@@ -58,6 +58,7 @@ const AboutSection = () => {
                         I bring strong problem-solving skills and a record of academic 
                         excellence. Eager to contribute and grow, I am ready to make a 
                         significant contribution to your team.
+                        
                     </p>
                     <div className='flex flex-row justify-start mt-8'>
                         <TabButton selectTab={() => handleTabChange("education")} active={tab === "education"}> Education </TabButton>
